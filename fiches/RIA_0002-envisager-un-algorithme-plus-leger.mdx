@@ -1,0 +1,49 @@
+---
+refID: '0002'
+title: Ne pas utiliser de l'IA générative s'il est possible de répondre au besoin avec un algorithme plus léger (statistiques, autre type de ML, ...)
+createdAt: 2025-12-02T12:00:00.000Z
+updatedAt: 2025-12-02T12:00:00.000Z
+language: fr
+published: true
+refType: RIA
+versions:
+  - version: 1.0.0
+    idRef: '0002'
+people: TBD
+responsible:
+  - responsible: src/content/personas/fr/architecte-logicieldeveloppeur.mdx
+lifecycle: 2-concept
+rgesn: 2.10
+environmental_impact: 5
+priority_implementation: 5
+moe: 3
+tiers: user-device
+saved_resources:
+  - cpu
+  - ram
+  - network
+  - requests
+validations:
+  - rule: >-
+      Le nombre de fonctionnalités utilisant de l'IA générative sans qu'une recherche d'alternative technique ait été effectuée est égale à
+    maxValue: 0
+---
+
+## Description
+
+Les systèmes d’IA générative sont impressionnants, mais ne sont dans beaucoup de cas pas les outils les plus performants
+voir les plus pertinents.
+
+Souvent, d’autres algorithmes, basés sur des règles de gestions classiques ou sur d’autres options de Machine Learning,
+seront plus efficaces. C’est ce que montre entre autres [une étude de Luccioni et al. de 2024](https://www.lemonde.fr/pixels/article/2024/03/25/intelligence-artificielle-le-bilan-carbone-de-la-generation-d-images-de-textes-ou-de-sous-titres_6224138_4408996.html).
+
+
+## Exemple
+
+Si on prend l’exemple d’une entreprise qui gère des trains à l’échelle d’un pays :
+* Prévoir les prochains retards et perturbations : peut se faire avec des programmes classiques basés sur des
+informations comme l’âge des équipements (trains, feux de signalisation, …), la performance historique des lignes
+et des équipes, la météo, etc. Des Machine Learning peut y être intégré. Les outils d’IA générative peuvent servir
+dans ce cadre à extraire des informations de documents non structurés.
+* Proposer des conseils de lecture, de séries ou de films aux utilisateurs pendant leurs voyages : Peut se faire
+avec des moteurs de recommandations, voire simplement l’actualité culturelle du moment."

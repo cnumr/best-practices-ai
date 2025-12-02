@@ -1,0 +1,44 @@
+---
+refID: '0015'
+title: Permettre à l'utilisateur d'éviter les appels à l'IA.
+createdAt: 2025-12-02T12:00:00.000Z
+updatedAt: 2025-12-02T12:00:00.000Z
+language: fr
+published: true
+refType: RIA
+versions:
+  - version: 1.0.0
+    idRef: '0015'
+people: TBD
+responsible:
+  - responsible: src/content/personas/fr/designeuser.mdx
+lifecycle: 1-specification
+rgesn: 4.4, 4.15
+environmental_impact: 2
+priority_implementation: 2
+moe: 3
+tiers: user-device
+saved_resources:
+  - cpu
+  - ram
+  - network
+  - requests
+validations:
+  - rule: >-
+      Le nombre d'éléments d'interface faisant un appel à une IA gourmande en ressources sans le mentionner est de
+    maxValue: 0
+---
+
+## Description
+
+Expliciter qu’une fonction utilise de l’IA et peut être lourde en ressources permet à l’utilisateur d’ajuster le nombre
+d’appels réalisés. Cela peut se faire via une indication visuelle ou une demande de confirmation.
+
+
+## Exemple
+
+Pour un service de traduction entre un bloc FR et EN dans l’administration d’un CMS.
+
+Le bouton sur lequel va cliquer l'utilisateur possède un logo "IA", le texte accompagnant le bouton mentionne
+"Intelligence Artificielle", et une popup de confirmation demande à l'utilisateur s'il est bien d'accord pour appeler
+le service d'IA et s'il est certain d'avoir terminé son texte.
