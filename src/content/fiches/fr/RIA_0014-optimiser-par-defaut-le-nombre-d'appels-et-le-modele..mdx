@@ -1,0 +1,42 @@
+---
+refID: '0014'
+title: Optimiser par défaut le nombre d'appels au service d'IA et le modèle utilisé.
+createdAt: 2025-12-02T12:00:00.000Z
+updatedAt: 2025-12-02T12:00:00.000Z
+language: fr
+published: true
+refType: RIA
+versions:
+  - version: 1.0.0
+    idRef: '0014'
+people: TBD
+responsible:
+  - responsible: src/content/personas/fr/designeuser.mdx
+lifecycle: 1-specification
+rgesn: ''
+environmental_impact: 2
+priority_implementation: 3
+moe: 3
+tiers: user-device
+saved_resources:
+  - cpu
+  - ram
+  - network
+  - requests
+validations:
+  - rule: >-
+      Le nombre d'appels à des IA gourmandes en ressources évitables est de
+    maxValue: 0
+---
+
+## Description
+
+Utiliser des valeurs par défaut minimisant l'impact de l'IA (nombre d'appels, modèle).
+
+Lors de l'accomplissement du parcours utilisateur, si l’appel au service d'IA peut être évité, ne pas le déclencher.
+Celui-ci peut-être déclenché suite à une action utilisateur ou avec une règle de gestion explicite.
+
+## Exemple
+
+Pour un service de traduction entre un bloc FR et EN dans l’administration d’un CMS : l’appel à un service de
+traduction par IA peut se faire uniquement via une action volontaire de l'utilisateur.
