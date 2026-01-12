@@ -24,5 +24,5 @@ En cas de désaccord entre contributeurs, son rôle est aussi de trancher une d�
 
 L'équipe projet fait preuve de transparence et fait en sorte que les décisions soient les plus collégiales possibles.
 
-L'équipe projet est responsable de la validation définitive des `Pull Request` et donc de l'intégration de la proposition 
+L'équipe projet est responsable de la validation définitive des `Pull Request` et donc de l'intégration de la proposition
 d'ajout, de modification ou de suppression dans le référentiel.

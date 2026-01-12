@@ -1,0 +1,47 @@
+---
+refID: '0001'
+title: Ne pas utiliser de l'IA générative s'il est possible de répondre au besoin sans IA.
+createdAt: 2025-12-02T12:00:00.000Z
+updatedAt: 2025-12-02T12:00:00.000Z
+language: fr
+published: true
+refType: RIA
+versions:
+  - version: 1.0.0
+    idRef: '0001'
+people: TBD
+responsible:
+  - responsible: src/content/personas/fr/poamoa.mdx
+lifecycle: 2-concept
+rgesn: '2.10'
+environmental_impact: 5
+priority_implementation: 5
+moe: 3
+tiers: user-device
+saved_resources:
+  - cpu
+  - ram
+  - network
+  - requests
+validations:
+  - rule: >-
+      Le nombre de fonctionnalités utilisant de l'IA générative sans qu'une recherche d'alternative fonctionnelle ait été effectuée est égale à
+    maxValue: 0
+---
+
+## Description
+
+Les systèmes d’IA générative sont impressionnants, mais ne sont dans beaucoup de cas pas les outils les plus performants
+voir les plus pertinents.
+
+La première question à se poser lors de l’intégration de ces outils est : est-il possible de répondre au besoin
+utilisateur sans IA générative ? Avec par exemple des règles de gestions, même complexes, des statistiques,
+une assistance humaine, etc.
+
+## Exemple
+
+Si on prend l’exemple d’une entreprise qui gère des trains à l’échelle d’un pays :
+
+- Lister les lignes les plus perturbées : peut se faire avec des statistiques
+- Fournir des informations sur les retards et perturbations à un utilisateur : la personnalisation des messages est
+  limitée et peut s faire avec des templates classiques.
