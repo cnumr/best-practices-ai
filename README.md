@@ -1,4 +1,4 @@
-# Référentiels de bonnes pratiques pour l'intégration d'IA (RIE)
+# Référentiels de bonnes pratiques pour l'intégration d'IA (RIA)
 
 Ce projet regroupe des bonnes pratiques pour l'IA générative dans les services numériques.
 
