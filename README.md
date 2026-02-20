@@ -14,7 +14,6 @@ Ce document est issu du travail des consultants du consortium DECENZ constitué 
 - Constellations
 - Davidson Consulting
 - Ekimetrics
-- Norsys
 - Zenika
 
 ## Comment contribuer ?
