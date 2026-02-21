@@ -309,6 +309,7 @@ export const ui = {
 
     // src/components/FichesMetasDisplay.astro
     'Sommaire :': 'Summary :',
+    responsible: 'Responsible(s)',
 
     // src/components/LanguagePicker.astro
     'Language picker': 'Language selector',
